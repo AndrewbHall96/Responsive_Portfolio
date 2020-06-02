@@ -1,0 +1,25 @@
+a.#{
+    margin-left: 40px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+body {
+    background-color: rgb(218, 216, 214);
+}
+
+div.card-header {
+    margin-left: 20px;
+    margin-top: 5px;
+    font-family: inherit;
+}
+
+/*how do I raise my margin so it is closer to the header*/
+
+.container {
+    margin-top: 40px;
+}
