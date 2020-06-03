@@ -1,7 +1,3 @@
-a.#{
-    margin-left: 40px;
-}
-
 img {
     height: 200px;
     width: 200px;
@@ -20,6 +16,5 @@ div.card-header {
 
 /*how do I raise my margin so it is closer to the header*/
 
-.container {
-    margin-top: 40px;
-}
+
+/*links*/
