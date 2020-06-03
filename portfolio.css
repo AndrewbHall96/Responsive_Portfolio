@@ -3,14 +3,23 @@ body {
     margin-top: auto;
     margin: auto;
 }
-body
-.card {
-    margin-top: 100px;
+body {
+    background-color: rgb(218, 216, 214);
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
+main {
+    margin: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 
 .container-fluid {
     width: 100%;
+}
 
+.card-header {
+    background-color: white;
 }
 
 .col {
@@ -32,9 +41,7 @@ body
     padding-left: 20px;
     padding-right: 20px;
 }
-.footer {
-    background-color: rgb(66, 66, 66);
-}
-.row {
-
+footer {
+    display: block;
+    text-align: center;
 }

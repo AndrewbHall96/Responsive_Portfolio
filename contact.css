@@ -15,3 +15,17 @@ body {
     background-color: rgb(218, 216, 214);
 }
  
+main {
+    margin: center;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+.card-header {
+    background-color: white;
+}
+footer {
+    display: block;
+    text-align: center;
+}

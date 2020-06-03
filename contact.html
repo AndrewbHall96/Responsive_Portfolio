@@ -1,75 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="contact.css" type="text/css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-</head>
-<body class="d-flex flex-column h-100"></bodyclass>>
-<header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-    <a class="navbar-brand" href="index.html">
-      <h3>Andrew Hall</h3>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto navbar">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-  </nav>
-</header>
 
-<!--Why did I add "d-flex... h100" in body?-->
-<main>  
-<div class="container card border-dark mb-3 mt-3" style="max-width: auto;">
-    <div class="card-header">
-    <form>
-        <div><h3>Contact</h3></div>
-        <div class="form-group">
-          <label for="exampleFormControlInput1">Name</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="contact.css" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+</head>
+
+<body class="d-flex flex-column h-100">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <h3>Andrew Hall</h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto navbar">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-        <div class="form-group">
+      </div>
+    </nav>
+  </header>
+
+  <!--Why did I add "d-flex... h100" in body?-->
+  <main>
+    <div class="container card border-dark mb-3 mt-3" style="max-width: auto;">
+      <div class="card-header">
+        <form>
+          <div>
+            <h3>Contact</h3>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Name</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="form-group">
             <label for="exampleFormControlInput1">Email Address</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
           </div>
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Message</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <!--Add "submit form"-->
-        <div><a href="#" class="btn btn-primary">submit</a></div>
-    </form>
-    </div>
-    <!--Add space for the btn-->
-   
-  </div>
-</main>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <!--Add "submit form"-->
+          <div><a href="#" class="btn btn-primary">submit</a></div>
+        </form>
+      </div>
+      <!--Add space for the btn-->
 
-<footer class="fixed-bottom">
-  <p>
-    <a href="#">Github</a>
-  
-    <a href="#">Linkedin</a>
-  
-    <a href="#">Email</a>
-  </p>
-</footer>
+    </div>
+  </main>
+
+  <footer>
+    <p class="fixed-bottom">
+      <a href="https://github.com/AndrewbHall96" target="_blank">Github</a>
+
+      <a href="https://www.linkedin.com/in/andrew-hall-248798171/" target="_blank">Linkedin</a>
+
+      <a href="#" target="_blank">Email</a>
+    </p>
+  </footer>
 </body>
+
 </html>
