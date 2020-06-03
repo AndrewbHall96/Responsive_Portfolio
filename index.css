@@ -6,6 +6,18 @@ img {
 
 body {
     background-color: rgb(218, 216, 214);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+main {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+body.card {
+    margin-top: 100px;
 }
 
 div.card-header {

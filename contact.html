@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
 </head>
-
+<body class="d-flex flex-column h-100"></bodyclass>>
 <header>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
     <a class="navbar-brand" href="index.html">
-      <h3>Andrew Hall</h3></a>
+      <h3>Andrew Hall</h3>
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -35,7 +36,9 @@
 </header>
 
 <!--Why did I add "d-flex... h100" in body?-->
-<body class="d-flex flex-column h-100 container">
+<main>  
+<div class="container card border-dark mb-3 mt-3" style="max-width: auto;">
+    <div class="card-header">
     <form>
         <div><h3>Contact</h3></div>
         <div class="form-group">
@@ -51,6 +54,22 @@
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
         <!--Add "submit form"-->
-      </form>
+        <div><a href="#" class="btn btn-primary">submit</a></div>
+    </form>
+    </div>
+    <!--Add space for the btn-->
+   
+  </div>
+</main>
+
+<footer class="fixed-bottom">
+  <p>
+    <a href="#">Github</a>
+  
+    <a href="#">Linkedin</a>
+  
+    <a href="#">Email</a>
+  </p>
+</footer>
 </body>
 </html>
