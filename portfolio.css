@@ -1,6 +1,10 @@
-.col, .col2{
+.col {
     margin-top: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
     margin-left: 50px;
+}
+
+.footer {
+    background-color: rgb(66, 66, 66);
 }
